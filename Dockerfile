@@ -29,8 +29,8 @@ RUN yum install -y which \
     openldap-clients \
     openssl \
     python-pip \
-    telnet \
-    nc \
+#    telnet \
+#    nc \
     libxslt && \
     yum clean all 
 
