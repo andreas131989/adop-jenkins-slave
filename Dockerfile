@@ -30,6 +30,8 @@ RUN yum install -y which \
     openssl \
     python-pip \
     libxslt \
+    telnet \
+    nc \
     file && \
     yum clean all 
 
